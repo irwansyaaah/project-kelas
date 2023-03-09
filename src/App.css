@@ -1,0 +1,17 @@
+#subscribe {
+  background-image: url(./images/background.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+}
+
+.div-subs {
+  background: rgb(168,168,176);
+  background: linear-gradient(90deg, rgba(168,168,176,0.7259278711484594) 50%, rgba(16,228,130,1) 50%, rgba(8,159,190,0.7063200280112045) 50%);
+}
+
+@media screen and (max-width: 560px) {
+  #subscribe {
+      height: 200px;
+  }
+}
